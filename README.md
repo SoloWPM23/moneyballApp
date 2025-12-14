@@ -21,45 +21,35 @@
 
 ## ✨ Features
 
-<table>
-<tr>
-<td width="50%">
+### 🔍 Player Search
+- Search players by name from 2,854 players across 5 major leagues
+- View detailed player statistics (goals, assists, passes, tackles, etc.)
+- Compare two players side-by-side with statistical breakdown
 
-### 🔍 Player Search & Discovery
-- Search across **2,854 players** from top 5 leagues
-- Advanced filtering by position, team, and nationality
-- Real-time player statistics display
+### 💡 Player Recommendations
+- Find similar players using Machine Learning (Cosine Similarity)
+- Get top 10 most similar players based on playing style
+- Discover alternative players for scouting and recruitment
 
-</td>
-<td width="50%">
+### 📊 Data Visualization
+- **Radar Chart** - Compare player attributes visually
+- **Bar Chart** - Side-by-side statistical comparison
+- **Scatter Plot** - Analyze goals vs assists distribution
+- **Box Plot** - View statistical distribution across positions
 
-### 💡 ML-Powered Similarity Finder
-- Find similar players using **cosine similarity**
-- K-Nearest Neighbors algorithm
-- Customizable similarity parameters
+### 🤖 AI-Powered Analysis
+- Generate professional player profile descriptions
+- Create detailed comparison narratives between two players
+- Produce scout reports with strengths, weaknesses, and recommendations
+- Get quick summary insights for any player
+- Powered by Google Gemini 2.5 Flash AI
 
-</td>
-</tr>
-<tr>
-<td width="50%">
-
-### 📊 Interactive Visualizations
-- **Radar Charts** for skill comparison
-- **Bar Charts** for statistical analysis
-- **Scatter Plots** for correlation discovery
-
-</td>
-<td width="50%">
-
-### 🤖 AI-Powered Insights
-- Generate detailed player profiles
-- Intelligent comparison narratives
-- Professional scout reports
-- Powered by **Google Gemini 2.5 Flash**
-
-</td>
-</tr>
-</table>
+### 📋 Player Statistics Available
+- **Basic Info**: Name, Age, Nationality, Club, League, Position
+- **Offensive**: Goals, Assists, Shots, Shot Accuracy, Expected Goals (xG)
+- **Passing**: Pass Completion, Key Passes, Progressive Passes
+- **Defensive**: Tackles, Interceptions, Clearances, Blocks
+- **Physical**: Minutes Played, Matches, Distance Covered
 
 ---
 
