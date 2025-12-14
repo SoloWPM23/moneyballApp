@@ -54,9 +54,12 @@ Contains 2,854 players from 5 top leagues:
 - **Data**: pandas, numpy
 
 ## Screenshots
+<img width="1919" height="990" alt="Screenshot 2025-12-14 224918" src="https://github.com/user-attachments/assets/d1ebb1bf-1e38-44ec-9119-eb5c80b57b1e" />
+<img width="1919" height="990" alt="Screenshot 2025-12-14 224932" src="https://github.com/user-attachments/assets/f4e30bc2-6109-45c3-a0ce-df0878bc71e0" />
+<img width="1919" height="990" alt="Screenshot 2025-12-14 224942" src="https://github.com/user-attachments/assets/3c7afd3a-5c80-4413-bb36-0c111636e0e2" />
+<img width="1919" height="990" alt="Screenshot 2025-12-14 224956" src="https://github.com/user-attachments/assets/465850ed-bcfe-4c73-b74a-3b20b0c690ef" />
 
-*Coming soon*
 
-## License
 
-MIT License
+
+
