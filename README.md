@@ -73,7 +73,7 @@
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/moneyballApp.git
+git clone https://github.com/SoloWPM23/moneyballApp.git
 cd moneyballApp
 
 # Install dependencies
