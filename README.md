@@ -73,8 +73,8 @@
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/moneyball-app.git
-cd moneyball-app
+git clone https://github.com/yourusername/moneyballApp
+cd moneyballApp
 
 # Install dependencies
 pip install -r requirements.txt
