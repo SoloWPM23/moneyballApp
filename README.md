@@ -1,65 +1,184 @@
-# ⚽ Moneyball - Football Player Analysis
+<div align="center">
 
-Professional football player analysis and scouting tool with AI-powered insights.
+# ⚽ Moneyball
 
-## Features
+### Football Player Analysis & Scouting Tool
 
-- 🔍 **Player Search** - Search and compare players across 5 major leagues
-- 💡 **Similarity Finder** - Find similar players using ML algorithms
-- 📊 **Visualizations** - Radar charts, bar charts, scatter plots
-- 🤖 **AI Insights** - Generate player profiles and comparisons using Gemini AI
+[![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
+[![PyQt6](https://img.shields.io/badge/PyQt6-6.0+-41CD52?style=for-the-badge&logo=qt&logoColor=white)](https://pypi.org/project/PyQt6/)
+[![Gemini AI](https://img.shields.io/badge/Gemini_AI-2.5_Flash-4285F4?style=for-the-badge&logo=google&logoColor=white)](https://ai.google.dev/)
+[![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
 
-## Installation
+*A professional-grade football analytics application powered by Machine Learning and Google Gemini AI for intelligent player scouting and comparison.*
 
-1. Clone the repository:
+[Features](#-features) •
+[Installation](#-installation) •
+[Screenshots](#-screenshots) •
+[Tech Stack](#-tech-stack)
+
+</div>
+
+---
+
+## ✨ Features
+
+<table>
+<tr>
+<td width="50%">
+
+### 🔍 Player Search & Discovery
+- Search across **2,854 players** from top 5 leagues
+- Advanced filtering by position, team, and nationality
+- Real-time player statistics display
+
+</td>
+<td width="50%">
+
+### 💡 ML-Powered Similarity Finder
+- Find similar players using **cosine similarity**
+- K-Nearest Neighbors algorithm
+- Customizable similarity parameters
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
+### 📊 Interactive Visualizations
+- **Radar Charts** for skill comparison
+- **Bar Charts** for statistical analysis
+- **Scatter Plots** for correlation discovery
+
+</td>
+<td width="50%">
+
+### 🤖 AI-Powered Insights
+- Generate detailed player profiles
+- Intelligent comparison narratives
+- Professional scout reports
+- Powered by **Google Gemini 2.5 Flash**
+
+</td>
+</tr>
+</table>
+
+---
+
+## 🚀 Installation
+
+### Prerequisites
+- Python 3.10 or higher
+- pip package manager
+
+### Quick Start
+
 ```bash
+# Clone the repository
 git clone https://github.com/yourusername/moneyball-app.git
 cd moneyball-app
-```
 
-2. Install dependencies:
-```bash
+# Install dependencies
 pip install -r requirements.txt
+
+# Run the application
+python run_app.py
 ```
 
-3. Setup API Key (for AI features):
-   - Create `data/config.json` file:
+### 🔑 API Configuration (Optional - for AI features)
+
+1. Get your API key from [Google AI Studio](https://aistudio.google.com/apikey)
+2. Create `data/config.json`:
+
 ```json
 {
     "API_KEY": "your-gemini-api-key-here"
 }
 ```
-   - Get your API key from [Google AI Studio](https://aistudio.google.com/apikey)
 
-4. Run the application:
-```bash
-python run_app.py
+> **Note:** The app works without an API key, but AI features will be disabled.
+
+---
+
+## 📸 Screenshots
+
+<div align="center">
+
+| Player Search | Recommendations |
+|:---:|:---:|
+| <img src="https://github.com/user-attachments/assets/d1ebb1bf-1e38-44ec-9119-eb5c80b57b1e" width="400"/> | <img src="https://github.com/user-attachments/assets/f4e30bc2-6109-45c3-a0ce-df0878bc71e0" width="400"/> |
+
+| Analysis Charts | AI Insights |
+|:---:|:---:|
+| <img src="https://github.com/user-attachments/assets/3c7afd3a-5c80-4413-bb36-0c111636e0e2" width="400"/> | <img src="https://github.com/user-attachments/assets/465850ed-bcfe-4c73-b74a-3b20b0c690ef" width="400"/> |
+
+</div>
+
+---
+
+## 🗂️ Dataset
+
+The application includes comprehensive data from **5 major European leagues**:
+
+| League | Country | Players |
+|--------|---------|:-------:|
+| 🏴󠁧󠁢󠁥󠁮󠁧󠁿 Premier League | England | 500+ |
+| 🇪🇸 La Liga | Spain | 500+ |
+| 🇩🇪 Bundesliga | Germany | 500+ |
+| 🇮🇹 Serie A | Italy | 500+ |
+| 🇫🇷 Ligue 1 | France | 500+ |
+
+**Total: 2,854 players** with 50+ attributes per player
+
+---
+
+## 🛠️ Tech Stack
+
+<div align="center">
+
+| Category | Technology |
+|----------|------------|
+| **GUI Framework** | ![PyQt6](https://img.shields.io/badge/PyQt6-41CD52?style=flat-square&logo=qt&logoColor=white) |
+| **Machine Learning** | ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white) |
+| **Visualization** | ![Matplotlib](https://img.shields.io/badge/Matplotlib-11557c?style=flat-square&logo=python&logoColor=white) |
+| **AI Integration** | ![Gemini](https://img.shields.io/badge/Gemini_AI-4285F4?style=flat-square&logo=google&logoColor=white) |
+| **Data Processing** | ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white) ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white) |
+
+</div>
+
+---
+
+## 📁 Project Structure
+
+```
+moneyball_app/
+├── 📄 run_app.py           # Application entry point
+├── 📄 requirements.txt     # Python dependencies
+├── 📁 ai/                  # AI module
+│   └── gemini_storyteller.py
+├── 📁 data/                # Data files
+│   ├── config.json         # API configuration (not tracked)
+│   └── dataPlayerC.csv     # Player dataset
+├── 📁 gui/                 # GUI components
+│   └── main_window.py      # Main application window
+├── 📁 ml/                  # Machine Learning
+│   ├── preprocessing.py    # Data preprocessing
+│   └── similarity_model.py # Similarity algorithms
+└── 📁 visualization/       # Chart generation
+    └── charts.py
 ```
 
-## Dataset
+---
 
-Contains 2,854 players from 5 top leagues:
-- Premier League
-- La Liga
-- Bundesliga
-- Serie A
-- Ligue 1
+## 📝 License
 
-## Tech Stack
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-- **GUI**: PyQt6
-- **ML**: scikit-learn (cosine similarity, KNN)
-- **Visualization**: Matplotlib
-- **AI**: Google Gemini AI (gemini-2.5-flash)
-- **Data**: pandas, numpy
+---
 
-## Screenshots
-<img width="1919" height="990" alt="Screenshot 2025-12-14 224918" src="https://github.com/user-attachments/assets/d1ebb1bf-1e38-44ec-9119-eb5c80b57b1e" />
-<img width="1919" height="990" alt="Screenshot 2025-12-14 224932" src="https://github.com/user-attachments/assets/f4e30bc2-6109-45c3-a0ce-df0878bc71e0" />
-<img width="1919" height="990" alt="Screenshot 2025-12-14 224942" src="https://github.com/user-attachments/assets/3c7afd3a-5c80-4413-bb36-0c111636e0e2" />
-<img width="1919" height="990" alt="Screenshot 2025-12-14 224956" src="https://github.com/user-attachments/assets/465850ed-bcfe-4c73-b74a-3b20b0c690ef" />
+<div align="center">
 
+**Made with ❤️ for Football Analytics**
 
+⭐ Star this repo if you find it useful!
 
-
-
+</div>
