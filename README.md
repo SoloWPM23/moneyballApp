@@ -120,11 +120,11 @@ The application includes comprehensive data from **5 major European leagues**:
 
 | League | Country | Players |
 |--------|---------|:-------:|
-| 🏴󠁧󠁢󠁥󠁮󠁧󠁿 Premier League | England | 500+ |
-| 🇪🇸 La Liga | Spain | 500+ |
-| 🇩🇪 Bundesliga | Germany | 500+ |
-| 🇮🇹 Serie A | Italy | 500+ |
-| 🇫🇷 Ligue 1 | France | 500+ |
+| Premier League | England | 500+ |
+| La Liga | Spain | 500+ |
+| Bundesliga | Germany | 500+ |
+| Serie A | Italy | 500+ |
+| Ligue 1 | France | 500+ |
 
 **Total: 2,854 players** with 50+ attributes per player
 
