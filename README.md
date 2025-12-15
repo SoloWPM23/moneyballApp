@@ -88,7 +88,50 @@ python run_app.py
 
 ---
 
-## 📸 Screenshots
+## � How to Use
+
+### 1. Launching the Application
+```bash
+python run_app.py
+```
+The application window will open with the main dashboard.
+
+### 2. Searching for Players
+1. Navigate to the **Player Search** tab
+2. Enter the player name in the search box
+3. Click **Search** or press Enter
+4. View detailed player statistics and information
+
+### 3. Comparing Two Players
+1. Search for the first player and select them
+2. Search for the second player and select them
+3. Click **Compare** to see side-by-side statistical comparison
+4. View visual comparisons through Radar Charts and Bar Charts
+
+### 4. Getting Player Recommendations
+1. Select a player you're interested in
+2. Navigate to the **Recommendations** tab
+3. The ML algorithm will suggest top 10 similar players based on playing style
+4. Explore alternative players for scouting purposes
+
+### 5. Using Data Visualization
+- **Radar Chart**: Compare multiple attributes at once
+- **Bar Chart**: View direct statistical comparisons
+- **Scatter Plot**: Analyze goals vs assists distribution
+- **Box Plot**: Understand statistical distribution by position
+
+### 6. AI-Powered Analysis (Requires API Key)
+1. Ensure you have configured your Gemini API key in `data/config.json`
+2. Select a player or comparison
+3. Choose from AI analysis options:
+   - **Player Profile**: Get a professional description
+   - **Scout Report**: Receive strengths, weaknesses, and recommendations
+   - **Comparison Narrative**: Generate detailed comparison between two players
+   - **Quick Summary**: Get instant insights
+
+---
+
+## �📸 Screenshots
 
 <div align="center">
 
